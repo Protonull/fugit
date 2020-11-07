@@ -1,0 +1,17 @@
+{
+    "name": "fugit",
+    "version": "1.0.0",
+    "description": "Makes your .gitmodules file actually work.",
+    "main": "bin/main.js",
+    "scripts": {
+        "start": "node bin/main.js"
+    },
+    "bin": {
+        "fugit": "bin/main.js"
+    },
+    "author": "Protonull",
+    "license": "MIT",
+    "dependencies": {
+        "iniparser": "^1.0.5"
+    }
+}
